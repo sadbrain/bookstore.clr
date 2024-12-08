@@ -1,0 +1,15 @@
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\bin\Debug\net8.0\auth.service.app.deps.json
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\bin\Debug\net8.0\auth.service.app.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\bin\Debug\net8.0\auth.service.app.pdb
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\obj\Debug\net8.0\auth.service.app.GeneratedMSBuildEditorConfig.editorconfig
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\obj\Debug\net8.0\auth.service.app.AssemblyInfoInputs.cache
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\obj\Debug\net8.0\auth.service.app.AssemblyInfo.cs
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\obj\Debug\net8.0\auth.service.app.csproj.CoreCompileInputs.cache
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\obj\Debug\net8.0\auth.service.app.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\obj\Debug\net8.0\refint\auth.service.app.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\obj\Debug\net8.0\auth.service.app.pdb
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\obj\Debug\net8.0\ref\auth.service.app.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\bin\Debug\net8.0\auth.service.domain.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\bin\Debug\net8.0\auth.service.domain.pdb
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\obj\Debug\net8.0\auth.service.app.csproj.AssemblyReference.cache
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.app\obj\Debug\net8.0\auth.ser.F6F165B6.Up2Date

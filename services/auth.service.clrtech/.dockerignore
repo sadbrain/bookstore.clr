@@ -1,0 +1,30 @@
+# Ignore build output
+./auth.service.api/bin/
+./auth.service.api/obj/
+./auth.service.api/*../auth.service.api/sln
+*.user
+./auth.service.api/*.suo
+./auth.service.api/*.csproj.lock
+
+# Ignore NuGet packages
+./auth.service.api/*.nupkg
+./auth.service.api/*.snupkg
+packages/
+./auth.service.api/*.nuspec
+
+# Ignore test results and logs
+TestResults/
+./auth.service.api/*.log
+
+# Ignore Visual Studio and Rider specific files
+.vscode/
+.idea/
+./auth.service.api/*.sln.dotnet
+./auth.service.api/*.userprefs
+
+# Ignore other common files
+./auth.service.api/.DS_Store
+./auth.service.api/Thumbs.db
+./auth.service.api/*.pdb
+./auth.service.api/*.mdb
+./auth.service.api/*.swp

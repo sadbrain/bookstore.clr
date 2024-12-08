@@ -1,0 +1,262 @@
+services:
+  auth_service:
+    build:
+      context: ./services/auth.service.clrtech
+    container_name: bookstoreclr_auth_service
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    depends_on:
+      - sqlserver
+      - rabbitmq_server
+    networks:
+      - backend_network
+      - db_network
+      - service_network
+
+  catalog_service:
+    build:   
+      context: ./services/catalog.service.clrtech
+    container_name: bookstoreclr_catalog_service
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    depends_on:
+      - mysql_server
+      - rabbitmq_server
+    networks:
+      - backend_network
+      - db_network
+      - service_network
+
+  shopping_service:
+    build:
+      context: ./services/shopping.service.clrtech
+    container_name: bookstoreclr_shopping_service
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    depends_on:
+      - redis_server
+      - rabbitmq_server
+    networks:
+      - backend_network
+      - db_network
+      - service_network
+
+  order_service:
+    build:
+      context: ./services/order.service.clrtech
+    container_name: bookstoreclr_order_service
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    depends_on:
+      - sqlserver
+      - rabbitmq_server
+    networks:
+      - backend_network
+      - db_network
+      - service_network
+
+  payment_service:
+    build:
+      context: ./services/payment.service.clrtech
+    container_name: bookstoreclr_payment_service
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    depends_on:
+      - sqlserver
+      - rabbitmq_server
+    networks:
+      - backend_network
+      - db_network
+      - service_network
+
+  admin:
+    build:
+      context: ./admin.clrtech
+    ports:
+      - "3001:80"
+    volumes:
+      - ./manifests/configurations/nginx/reactjs-nginx-prod.conf:/etc/nginx/nginx.conf
+    container_name: bookstoreclr_admin 
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    networks:
+      - frontend_network
+
+  client:
+    build:
+      context: ./client.clrtech
+    ports:
+      - "80:80"
+    container_name: bookstoreclr_client
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    networks:
+      - frontend_network
+
+  redis_server:
+    build:
+      context: ./manifests/configurations/redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data_sta:/data
+      - ./manifests/configurations/redis/redis.conf:/usr/local/etc/redis/redis.conf
+    container_name: bookstoreclr_redis_server
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    networks:
+      - db_network
+
+  mysql_server:
+    build:
+      context: ./manifests/configurations/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: mysqlroot
+      MYSQL_USER: mysqluser
+      MYSQL_PASSWORD: mysqluser
+    container_name: bookstoreclr_mysql_server
+    volumes:
+      - mysql_data_sta:/var/lib/mysql
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    networks:
+      - db_network
+
+  cloudbeaver_server:
+    build:
+      context: ./manifests/configurations/cloudbeaver
+    container_name: bookstoreclr_cloudbeaver_server
+    ports:
+      - "8978:8978"
+    volumes:
+      - cloudbeaver_data_sta:/opt/cloudbeaver/workspace
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    networks:
+      - db_network
+
+  sqlserver:
+    build:
+      context: ./manifests/configurations/sqlserver
+    container_name: bookstoreclr_sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Str0ngPa5sVvorcl"
+      MSSQL_DATABASE: sqlserver_db
+    volumes:  
+      - sqlserver_data_sta:/var/opt/mssql
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    networks:
+      - db_network
+
+  rabbitmq_server:
+    build:
+      context: ./manifests/configurations/rabbitmq
+    container_name: bookstoreclr_rabbitmq_server
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_data_sta:/var/lib/rabbitmq
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    networks:
+      - service_network
+
+  nginx_server:
+    build:
+      context: ./manifests/configurations/nginx
+    container_name: bookstoreclr_nginx_server
+    ports:
+      - "5000:5000"
+    depends_on:
+      - auth_service
+      - catalog_service
+      - shopping_service
+      - order_service
+      - payment_service
+    volumes:
+      - ./manifests/configurations/nginx/nginx-sta.conf:/etc/nginx/nginx.conf
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "1"
+    networks:
+      - backend_network
+      - frontend_network
+
+volumes:
+  mysql_data_sta:
+  cloudbeaver_data_sta:
+  sqlserver_data_sta:
+  rabbitmq_data_sta:
+  redis_data_sta:
+
+networks:
+  backend_network:
+  frontend_network:
+  db_network:
+  service_network:

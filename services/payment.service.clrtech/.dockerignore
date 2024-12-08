@@ -1,0 +1,30 @@
+# Ignore build output
+./payment.service.api/bin/
+./payment.service.api/obj/
+./payment.service.api/*../payment.service.api/sln
+*.user
+./payment.service.api/*.suo
+./payment.service.api/*.csproj.lock
+
+# Ignore NuGet packages
+./payment.service.api/*.nupkg
+./payment.service.api/*.snupkg
+packages/
+./payment.service.api/*.nuspec
+
+# Ignore test results and logs
+TestResults/
+./payment.service.api/*.log
+
+# Ignore Visual Studio and Rider specific files
+.vscode/
+.idea/
+./payment.service.api/*.sln.dotnet
+./payment.service.api/*.userprefs
+
+# Ignore other common files
+./payment.service.api/.DS_Store
+./payment.service.api/Thumbs.db
+./payment.service.api/*.pdb
+./payment.service.api/*.mdb
+./payment.service.api/*.swp

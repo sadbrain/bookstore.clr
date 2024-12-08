@@ -1,0 +1,17 @@
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\bin\Debug\net8.0\auth.service.infra.deps.json
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\bin\Debug\net8.0\auth.service.infra.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\bin\Debug\net8.0\auth.service.infra.pdb
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\obj\Debug\net8.0\auth.service.infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\obj\Debug\net8.0\auth.service.infra.AssemblyInfoInputs.cache
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\obj\Debug\net8.0\auth.service.infra.AssemblyInfo.cs
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\obj\Debug\net8.0\auth.service.infra.csproj.CoreCompileInputs.cache
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\obj\Debug\net8.0\auth.service.infra.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\obj\Debug\net8.0\refint\auth.service.infra.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\obj\Debug\net8.0\auth.service.infra.pdb
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\obj\Debug\net8.0\ref\auth.service.infra.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\bin\Debug\net8.0\auth.service.app.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\bin\Debug\net8.0\auth.service.domain.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\bin\Debug\net8.0\auth.service.app.pdb
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\bin\Debug\net8.0\auth.service.domain.pdb
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\obj\Debug\net8.0\auth.service.infra.csproj.AssemblyReference.cache
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.infra\obj\Debug\net8.0\auth.ser.AE440A79.Up2Date

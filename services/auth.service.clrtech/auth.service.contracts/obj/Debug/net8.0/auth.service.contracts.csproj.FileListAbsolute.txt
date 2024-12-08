@@ -1,0 +1,11 @@
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\bin\Debug\net8.0\auth.service.contracts.deps.json
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\bin\Debug\net8.0\auth.service.contracts.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\bin\Debug\net8.0\auth.service.contracts.pdb
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\obj\Debug\net8.0\auth.service.contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\obj\Debug\net8.0\auth.service.contracts.AssemblyInfoInputs.cache
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\obj\Debug\net8.0\auth.service.contracts.AssemblyInfo.cs
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\obj\Debug\net8.0\auth.service.contracts.csproj.CoreCompileInputs.cache
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\obj\Debug\net8.0\auth.service.contracts.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\obj\Debug\net8.0\refint\auth.service.contracts.dll
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\obj\Debug\net8.0\auth.service.contracts.pdb
+D:\work_space\microservice\bookstore.clr\services\auth.service.clrtech\auth.service.contracts\obj\Debug\net8.0\ref\auth.service.contracts.dll

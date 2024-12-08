@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6B83E2-28C6-410B-A520-3399B8E29B5E}|auth.service.app\\auth.service.app.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\authentication\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6B83E2-28C6-410B-A520-3399B8E29B5E}|auth.service.app\\auth.service.app.csproj|solutionrelative:auth.service.app\\authentication\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6B83E2-28C6-410B-A520-3399B8E29B5E}|auth.service.app\\auth.service.app.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\authentication\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6B83E2-28C6-410B-A520-3399B8E29B5E}|auth.service.app\\auth.service.app.csproj|solutionrelative:auth.service.app\\authentication\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE4C7D-4AD3-47A3-8B09-A82A3D81A5C9}|auth.service.contracts\\auth.service.contracts.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.contracts\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CAE4C7D-4AD3-47A3-8B09-A82A3D81A5C9}|auth.service.contracts\\auth.service.contracts.csproj|solutionrelative:auth.service.contracts\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6B83E2-28C6-410B-A520-3399B8E29B5E}|auth.service.app\\auth.service.app.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6B83E2-28C6-410B-A520-3399B8E29B5E}|auth.service.app\\auth.service.app.csproj|solutionrelative:auth.service.app\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDA640-CE51-4B94-8EF0-8B729F13979A}|auth.service.infra\\auth.service.infra.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.infra\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDA640-CE51-4B94-8EF0-8B729F13979A}|auth.service.infra\\auth.service.infra.csproj|solutionrelative:auth.service.infra\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78A9229-5A72-4080-A651-4CBBC38F4233}|auth.service.domain\\auth.service.domain.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78A9229-5A72-4080-A651-4CBBC38F4233}|auth.service.domain\\auth.service.domain.csproj|solutionrelative:auth.service.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDA640-CE51-4B94-8EF0-8B729F13979A}|auth.service.infra\\auth.service.infra.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.infra\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDA640-CE51-4B94-8EF0-8B729F13979A}|auth.service.infra\\auth.service.infra.csproj|solutionrelative:auth.service.infra\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6B83E2-28C6-410B-A520-3399B8E29B5E}|auth.service.app\\auth.service.app.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\common\\interfaces\\persistence\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6B83E2-28C6-410B-A520-3399B8E29B5E}|auth.service.app\\auth.service.app.csproj|solutionrelative:auth.service.app\\common\\interfaces\\persistence\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE4C7D-4AD3-47A3-8B09-A82A3D81A5C9}|auth.service.contracts\\auth.service.contracts.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.contracts\\authentication\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CAE4C7D-4AD3-47A3-8B09-A82A3D81A5C9}|auth.service.contracts\\auth.service.contracts.csproj|solutionrelative:auth.service.contracts\\authentication\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2387F6-AAF1-4F5B-9E20-784BE31E671F}|auth.service.api\\auth.service.api.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB2387F6-AAF1-4F5B-9E20-784BE31E671F}|auth.service.api\\auth.service.api.csproj|solutionrelative:auth.service.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDA640-CE51-4B94-8EF0-8B729F13979A}|auth.service.infra\\auth.service.infra.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.infra\\auth.service.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34EDA640-CE51-4B94-8EF0-8B729F13979A}|auth.service.infra\\auth.service.infra.csproj|solutionrelative:auth.service.infra\\auth.service.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2387F6-AAF1-4F5B-9E20-784BE31E671F}|auth.service.api\\auth.service.api.csproj|d:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.api\\auth.service.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EB2387F6-AAF1-4F5B-9E20-784BE31E671F}|auth.service.api\\auth.service.api.csproj|solutionrelative:auth.service.api\\auth.service.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\Authentication\\Commands\\Register\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "auth.service.app\\Authentication\\Commands\\Register\\RegisterCommand.cs",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\Authentication\\Commands\\Register\\RegisterCommand.cs",
+              "RelativeToolTip": "auth.service.app\\Authentication\\Commands\\Register\\RegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:13:10.71Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "auth.service.app\\DependencyInjection.cs",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\DependencyInjection.cs",
+              "RelativeToolTip": "auth.service.app\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:59:12.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:400738586:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2074600792:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "auth.service.domain\\Entities\\User.cs",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.domain\\Entities\\User.cs",
+              "RelativeToolTip": "auth.service.domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:42:41.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "auth.service.infra",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.infra\\auth.service.infra.csproj",
+              "RelativeDocumentMoniker": "auth.service.infra\\auth.service.infra.csproj",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.infra\\auth.service.infra.csproj",
+              "RelativeToolTip": "auth.service.infra\\auth.service.infra.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-10T14:39:50.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "auth.service.api",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.api\\auth.service.api.csproj",
+              "RelativeDocumentMoniker": "auth.service.api\\auth.service.api.csproj",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.api\\auth.service.api.csproj",
+              "RelativeToolTip": "auth.service.api\\auth.service.api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-10T14:35:56.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.api\\Program.cs",
+              "RelativeDocumentMoniker": "auth.service.api\\Program.cs",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.api\\Program.cs",
+              "RelativeToolTip": "auth.service.api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:34:51.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.contracts\\Authentication\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "auth.service.contracts\\Authentication\\RegisterRequest.cs",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.contracts\\Authentication\\RegisterRequest.cs",
+              "RelativeToolTip": "auth.service.contracts\\Authentication\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:16:34.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\Authentication\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "auth.service.app\\Authentication\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\Authentication\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "auth.service.app\\Authentication\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:43:08.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthenticationResponse.cs",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.contracts\\Authentication\\AuthenticationResponse.cs",
+              "RelativeDocumentMoniker": "auth.service.contracts\\Authentication\\AuthenticationResponse.cs",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.contracts\\Authentication\\AuthenticationResponse.cs",
+              "RelativeToolTip": "auth.service.contracts\\Authentication\\AuthenticationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:42:46.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "auth.service.app\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.app\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
+              "RelativeToolTip": "auth.service.app\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:42:58.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.infra\\Persistence\\UserRepository.cs",
+              "RelativeDocumentMoniker": "auth.service.infra\\Persistence\\UserRepository.cs",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.infra\\Persistence\\UserRepository.cs",
+              "RelativeToolTip": "auth.service.infra\\Persistence\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:43:01.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.infra\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "auth.service.infra\\DependencyInjection.cs",
+              "ToolTip": "D:\\work_space\\microservice\\bookstore.clr\\services\\auth.service.clrtech\\auth.service.infra\\DependencyInjection.cs",
+              "RelativeToolTip": "auth.service.infra\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:24:32.706Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

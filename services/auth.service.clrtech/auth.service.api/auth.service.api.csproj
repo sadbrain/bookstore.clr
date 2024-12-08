@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.5" />
+	</ItemGroup>
+  <ItemGroup>
+      <ProjectReference Include="..\auth.service.contracts\auth.service.contracts.csproj" />
+	  <ProjectReference Include="..\auth.service.infra\auth.service.infra.csproj" />
+	  <ProjectReference Include="..\auth.service.app\auth.service.app.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Mapping\" />
+    <Folder Include="Common\Errors\" />
+  </ItemGroup>
+
+</Project>

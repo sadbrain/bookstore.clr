@@ -1,0 +1,30 @@
+# Ignore build output
+./order.service.api/bin/
+./order.service.api/obj/
+./order.service.api/*../order.service.api/sln
+*.user
+./order.service.api/*.suo
+./order.service.api/*.csproj.lock
+
+# Ignore NuGet packages
+./order.service.api/*.nupkg
+./order.service.api/*.snupkg
+packages/
+./order.service.api/*.nuspec
+
+# Ignore test results and logs
+TestResults/
+./order.service.api/*.log
+
+# Ignore Visual Studio and Rider specific files
+.vscode/
+.idea/
+./order.service.api/*.sln.dotnet
+./order.service.api/*.userprefs
+
+# Ignore other common files
+./order.service.api/.DS_Store
+./order.service.api/Thumbs.db
+./order.service.api/*.pdb
+./order.service.api/*.mdb
+./order.service.api/*.swp

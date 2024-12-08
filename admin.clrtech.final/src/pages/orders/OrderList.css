@@ -1,0 +1,16 @@
+.order-status-list .order-status-link {
+    font-size: 18px;
+    color: #000;
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: 2px;
+}
+.order-status-list .order-status-link > li {
+    border: none;
+}
+.order-status-list .order-status-link.active,
+.order-status-list .order-status-link.active > li {
+    background-color: #005662 !important;
+    color: #fff;
+}
+
